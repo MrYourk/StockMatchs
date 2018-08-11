@@ -7,6 +7,41 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="css/mui.min.css" rel="stylesheet" />
 		<link href="css/style.css" rel="stylesheet" />
+		<style>
+		.mui-table-view-cell {
+			border-bottom: 1px solid #c4c3c3;
+		}
+
+		.mui-table-view {
+			margin-top: 44px;
+		}
+
+		.blockname {
+			display: flex;
+		}
+
+		.blockname p {
+			width: 100%;
+			text-align: center;
+		}
+
+		.blockname .left {
+			text-align: left;
+		}
+
+		.blockname .middle {
+			text-align: center;
+			color: #32cd32;
+		}
+
+		.blockname .right {
+			text-align: right;
+		}
+
+		.blockname .down {
+			color: #fa0000;
+		}
+	</style>
 	</head>
 
 	<body>
@@ -20,24 +55,24 @@
 		            <a class="mui-navigate-right" href="#">概念漲幅</a>
 		            <div class="mui-collapse-content">
 		                <div id="" class="blockname">
-		                	<p>{{醫藥}}</p>
-		                	<p>{{1.9%}}</p>
-		                	<p>{{長生醫藥}}</p>
+		                	<p class="left">{{醫藥}}</p>
+		                	<p class="middle">{{1.9%}}</p>
+		                	<p class="right">{{長生醫藥}}</p>
 		                </div>
 		                <div id="" class="blockname">
-		                	<p>{{醫藥}}</p>
-		                	<p>{{2.9%}}</p>
-		                	<p>{{武漢生物}}</p>
+		                	<p class="left">{{醫藥}}</p>
+		                	<p class="middle">{{2.9%}}</p>
+		                	<p class="right">{{武漢生物}}</p>
 		                </div>
 		                <div id="" class="blockname">
-		                	<p>{{醫藥}}</p>
-		                	<p>{{1.9%}}</p>
-		                	<p>{{長生醫藥}}</p>
+		                	<p class="left">{{醫藥}}</p>
+		                	<p class="middle">{{1.9%}}</p>
+		                	<p class="right">{{長生醫藥}}</p>
 		                </div>
 		                <div id="" class="blockname">
-		                	<p>{{醫藥}}</p>
-		                	<p>{{1.9%}}</p>
-		                	<p>{{長生醫藥}}</p>
+		                	<p class="left">{{醫藥}}</p>
+		                	<p class="middle">{{1.9%}}</p>
+		                	<p class="right">{{長生醫藥}}</p>
 		                </div>
 		            </div>
 		        </li>
@@ -45,29 +80,29 @@
 		            <a class="mui-navigate-right" href="#">行業漲幅</a>
 		            <div class="mui-collapse-content">
 		                <div id="" class="blockname">
-		                	<p>{{醫藥}}</p>
-		                	<p>{{1.9%}}</p>
-		                	<p>{{長生醫藥}}</p>
+		                	<p class="left">{{醫藥}}</p>
+		                	<p class="middle">{{1.9%}}</p>
+		                	<p class="right">{{長生醫藥}}</p>
 		                </div>
 		            </div>
 		        </li>
 		        <li class="mui-table-view-cell mui-collapse">
 		            <a class="mui-navigate-right" href="#">漲幅榜</a>
 		            <div class="mui-collapse-content">
-		                <div id="" class="stockname">
-		                	<p>{{平安銀行}}</p>
-		                	<p>{{16.9}}</p>
-		                	<p>{{1.8%}}</p>
+		                <div id="" class="blockname">
+		                	<p class="left">{{平安銀行}}</p>
+		                	<p class="middle">{{16.9}}</p>
+		                	<p class="right">{{1.8%}}</p>
 		                </div>
 		            </div>
 		        </li>
 		        <li class="mui-table-view-cell mui-collapse">
 		            <a class="mui-navigate-right" href="#">跌幅榜</a>
 		            <div class="mui-collapse-content">
-		                <div id="" class="stockname">
-		                	<p>{{貴州茅臺}}</p>
-		                	<p>{{555.2}}</p>
-		                	<p>{{-2.2%}}</p>
+		                <div id="" class="blockname">
+		                	<p class="left">{{貴州茅臺}}</p>
+		                	<p class="middle down">{{555.2}}</p>
+		                	<p class="right">{{-2.2%}}</p>
 		                </div>
 		            </div>
 		        </li>

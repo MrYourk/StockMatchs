@@ -7,8 +7,21 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="css/mui.min.css" rel="stylesheet" />
 		<style type="text/css">
-			.logobox {
-				
+			.logobox {}
+			
+			.mui-input-row {
+				border-bottom: 1px solid #f2f2f2;
+			}
+			
+			.mui-input-row .file {
+				padding: 4.7px;
+			}
+
+			.mui-button-row button {
+				position: absolute;
+				right: 0px;
+				margin-right: 40%;
+				width: 20%;
 			}
 		</style>
 	</head>
@@ -43,17 +56,17 @@
 		    </div>
 		    <div class="mui-input-row">
 		        <label>logo：</label>
-		        <input type="file" name="logofile" />
+		        <input type="file" name="logofile" class="file"/>
 		    </div>
-		     <div class="mui-button-row" style="text-align: center;">
-		        <label style="float: left; padding-left: 15px;">初始資金：</label>
-		        <input name="radio1" type="radio" checked="checked" style="display: inline;">50W
-		        <input name="radio1" type="radio" style="display: inline;">100W
-		        <input name="radio1" type="radio" style="display: inline;">500W
-		        <input name="radio1" type="radio" style="display: inline;">1000W
+		     <div class="mui-button-row" style="text-align: center;  height: 40px;  border-bottom: 1px solid #f2f2f2;">
+		        <label style="float: left;  padding: 11px 15px;">初始資金：</label>
+		        <input name="radio1" type="radio" checked="checked" style="display: inline; margin-top: 14px; br">50W
+		        <input name="radio1" type="radio" style="display: inline; margin-top: 14px;">100W
+		        <input name="radio1" type="radio" style="display: inline; margin-top: 14px;">500W
+		        <input name="radio1" type="radio" style="display: inline; margin-top: 14px;">1000W
 		    </div>
-		    <div class="mui-button-row">
-		        <button type="button" class="mui-btn mui-btn-primary" >提交</button>
+		    <div class="mui-button-row" style="margin-top:12.5px;">
+		        <button type="button" class="mui-btn mui-btn-primary">提交</button>
 		    </div>
 		    
 		</form>

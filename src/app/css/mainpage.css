@@ -7,7 +7,7 @@
 }
 
 .box{
-	height: 70px;
+	/*height: 70px;
 	width: 28%;
 	margin-left: 10px;
 	margin-top: 10px;
@@ -15,6 +15,7 @@
 	font-size: 20px;
 	text-align: center;
 	display: inline-block;
+	*/
 }
 
 #box_1 {
@@ -43,7 +44,7 @@
 }
 
 .mymsg{
-	margin-top: 10px;
+	margin-top: 3px;
 	line-height: 32px;
 	height: 32px;
 	width:100%;

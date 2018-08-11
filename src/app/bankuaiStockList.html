@@ -8,17 +8,49 @@
 		<link href="css/mui.min.css" rel="stylesheet" />
 		<link href="css/style.css" rel="stylesheet" />
 		<link href="css/bankuaiStockList.css" rel="stylesheet" />
+		<style>
+			#list-head {}
+
+			#list-head ul {
+				margin: 0px;
+				display: flex;
+				list-style-type: none;
+				padding-left: 0px;
+				text-align: center;
+				line-height: 50px;
+			}
+
+			#list-head li {
+				width: 100%;
+			}
+
+			#list-head .up {
+				color: #0041ff;
+			}
+
+			#list-head .down {
+				color: #fa0000;
+			}
+	</style>
 	</head>
 
 	<body>
 		<header class="mui-bar mui-bar-nav">
 		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-		    <h1 class="mui-title"></h1>
+		    <h1 class="mui-title">板塊名字</h1>
 		</header>
 		<div class="mui-content" id='lstDatas'>
 			<!--<div class="mui-scroll-wrapper">
 				<div class="mui-scroll">-->
 					<div id="list-head" style="background-color: #CCCCCC;">
+						<ul>
+							<li>股票名</li>
+							<li>現價</li>
+							<li class="up">漲幅</li>
+							<li class="down">漲跌</li>
+							<li>操作</li>
+						</ul>
+						<!--
 						<div>
 							股票名
 						</div>
@@ -34,7 +66,9 @@
 						<div>
 							操作
 						</div>
-					</div><!-- head-->
+						-->
+					</div>
+					<!-- head-->
 					<div id="list-content" class="" v-for="it in datas" >
 						<div id="stock-name" style="height: 50px;" :symbol="it.symbol" @tap="openStockDetail(it)">
 							<div>
